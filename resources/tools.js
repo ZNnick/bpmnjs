@@ -48,7 +48,7 @@ const tools = {
             }
             return object
         }
-        return object[url];
+        return object[url] || url;
     },
     /**
      * 通过xml创建bpmn
